@@ -51,3 +51,19 @@ tmux uses Ctrl+B as a prefix key before commands.
 8. Kill a pane: ctrl+B, then X
 
 ### Managing Sessions
+
+> tmux new-session -s mysession
+
+This command creates a named session.
+
+> tmux list-sessions
+
+This command lists active sessions
+
+> tmux a -t mysession
+
+This command attaches to an active session
+
+> tmux kill-session -t mysession
+
+This command kills a session
