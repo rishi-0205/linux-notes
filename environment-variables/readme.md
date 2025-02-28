@@ -23,7 +23,7 @@ Environment variables are dynamic values that affect the processes or programs r
 
 #### System-Wide Variables:
 
-> sude nano /etc/environment
+> sudo nano /etc/environment
 
 Now add MY_VAR=value to the file
 
